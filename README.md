@@ -32,25 +32,21 @@ Generative AI with LLM using AWS.
 
 ## Lab 1:
 
-In Lab 1, you will work with a dataset of conversations and learn how to summarize dialogues using the Flan-T5 model.
-You will use PyTorch and the Transformers library to load the dataset and perform the summarization task.
-The lab provides step-by-step instructions on how to install the necessary libraries and load the dataset.
-You will learn about the Dialogue Sum dataset and how to use it for training and fine-tuning the Flan-T5 model.
-The lab also covers the basics of PyTorch data loading and introduces you to the Transformers library for working with large language models.
+This lab focuses on summarizing dialogues using the Flan-T5 model.
+You will learn how to load the Dialogue Sum dataset and use PyTorch and the Transformers library for training and fine-tuning the model.
+The lab provides step-by-step instructions on setting up the environment and installing the necessary libraries.
+You will gain hands-on experience with PyTorch data loading and working with large language models.
 
 ## Lab 2:
 
-Lab 2 focuses on fine-tuning the Flan-T5 model using Parameter-Efficient Fine-Tuning (PEFT) with prompt instructions.
-You will learn how to further tune the Flan-T5 model by providing specific prompts for your summarization task.
-The lab provides instructions on setting up the environment using AWS SageMaker and installing the necessary libraries.
-You will explore the torchdata library for PyTorch data loading and the evaluates library for calculating the Rouge score.
-The lab guides you through the process of fine-tuning the Flan-T5 model and modifying its weights for your specific summarization task.
+In this lab, you will explore fine-tuning the Flan-T5 model using Parameter-Efficient Fine-Tuning (PEFT) with prompt instructions.
+The lab guides you through the process of modifying the weights of the Flan-T5 model for your specific summarization task.
+You will learn how to set up the environment using AWS SageMaker and install the required libraries.
+The lab covers torchdata and evaluates libraries for PyTorch data loading and calculating the Rouge score.
 
 ## Lab 3:
 
-In Lab 3, you will learn about memory optimization techniques for training large language models.
-The lab covers the challenges of running out of memory when training LLMs and the need for memory optimization.
-You will explore quantization as a technique to reduce the memory required to store and train LLMs.
-The lab explains the concept of quantization and its impact on model precision and memory footprint.
-You will learn about different precision formats such as FP32, FP16, and BFLOAT16, and their trade-offs in terms of memory and performance.
-These labs provide hands-on experience with training and fine-tuning large language models, as well as optimizing memory usage. They offer practical insights into working with LLMs and applying them to real-world tasks
+Lab 3 focuses on memory optimization techniques for training large language models.
+You will learn about the challenges of memory usage when training LLMs and the need for optimization.
+The lab explores quantization as a technique to reduce memory requirements and explains different precision formats.
+You will gain insights into the trade-offs between memory and performance when using different precision formats.
