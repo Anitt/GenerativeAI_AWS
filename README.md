@@ -1,2 +1,2 @@
 # GenerativeAI_AWS
-Generative AI with LLM using AWS Labs from Course era
+Generative AI with LLM using AWS Labs from Courseera
